@@ -10,10 +10,23 @@ const Navbar = () => {
       </div>
 
       <div className="mx-4 flex justify-center items-center gap-4 text-white text-2xl">
-        <FaLinkedin />
+        {/* <FaLinkedin />
         <FaInstagram />
         <FaGithub />
-        <FaTwitter />
+        <FaTwitter /> */}
+
+<a href="https://www.linkedin.com/in/atharva-dhavale-a628842b9/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+        <a href="https://www.instagram.com/atharva_dhavale_1815/" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
+        </a>
+        <a href="https://github.com/Atharva-Dhavale" target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+          <FaTwitter />
+        </a>
       </div>
     </nav>
   )

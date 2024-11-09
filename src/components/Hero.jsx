@@ -3,7 +3,6 @@ import {HERO_CONTENT} from "../constants"
 import ProfilePhoto from "../assets/ProfilePhoto.jpeg"
 // React motion
 import { motion } from "framer-motion"
-import Institute from './Institute';
 import { FaUniversity } from 'react-icons/fa';
 
 //container for motion fun
