@@ -39,14 +39,14 @@ const Hero = () => {
                      Atharva Dhavale    
                 </motion.h1>
 
-                {/* <motion.div 
+                <motion.div 
                   variants={container(0.5)}
                   initial="hidden"
                   animate="visible"
                   className='flex items-center text-xl-1/2 lg:mt-1 lg:mx-16 mb-2'>
                   <FaUniversity className='mr-2' /> 
                   Pune Institute of Computer Technology 
-                </motion.div> */}
+                </motion.div>
 
                 <motion.span
                 variants={container(0.5)}
